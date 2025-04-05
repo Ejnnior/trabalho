@@ -1,0 +1,216 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+
+}
+
+body {
+    background-color: #000;
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.flex{
+
+    display: flex;
+}
+.img-topo-site {
+    width: 400px;          
+    height: auto;          
+    filter: grayscale(50%); 
+    opacity: 0.9;           
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+    object-fit: cover;   
+    padding: 40px 4%;
+    margin-bottom: 50px; 
+}
+  
+
+ .btn-contato button{
+    padding: 10px 70px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(4, 145, 155);
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+   
+}
+
+h2.redes{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-align: center;
+    
+
+}
+
+.img-site img{
+    width: 300px;
+    height: left;
+    border-radius: 20px; 
+    transform: scale(1.05);
+    width: 300px;
+    margin-bottom: 40px;
+}
+h2.redes span{
+
+    color:rgb(5, 220, 236)
+
+}
+
+
+header{
+    padding: 70px 10%;
+}
+
+header > .interface{
+    display: flex;  
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: #4d4c4c;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover {
+    color: white;
+    transform: scale(1.05);
+
+}
+
+.insta-box a {
+    text-decoration: none;
+    color: inherit; 
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+
+}
+ 
+ .btn-contato button:hover{
+    background-color: rgb(5, 220, 236);
+    box-shadow: 0px 0px 0px rgb(1, 39, 255);
+    transform: scale(1.05);
+    padding: 0 10;
+}
+
+/* Parte de cima */
+
+section.topo-do-site{
+    padding: 40px 4%;
+}
+
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+}
+
+.topo-do-site h1{
+    color:aliceblue;
+    font-size: 30px;
+    line-height: 40px;
+}
+.txt-topo-site span{  
+    color:rgb(5, 220, 236)
+
+}
+
+.topo-do-site .txt-topo-site p{
+    color: white;
+    margin: 40px;
+
+}
+
+
+/* Parte de cima */
+
+/* Parte das redes sociais */
+
+section.insta{
+    padding: 40px 4%;
+}
+
+section.insta .flex{
+   gap: 60px;
+}
+
+.insta .insta-box {
+    color: white;
+    padding: 40px;
+    border-radius: 40px;
+    border: 2px solid white;
+    margin-top: 25px;
+}
+
+.insta .insta-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px white;
+}
+
+.insta .insta-box i{
+    font-size: 60px;
+    color: rgb(255, 0, 230);
+}
+
+.insta .insta-box h3{
+    font-size: 28px;
+    margin: 15px 0;
+
+}
+
+/* Cargo atual */
+
+
+.texto-cargo-atual {
+    color: white;
+    font-size: 18px; 
+    line-height: 1.6; 
+    padding: 40px;
+    border-radius: 40px;
+    border: 2px solid white;
+    margin-top: 25px;
+}
+
+/* sobre mim */
+
+
+.texto-sobre-mim {
+    color: white;
+    font-size: 18px; 
+    line-height: 1.6; 
+    padding: 40px;
+    border-radius: 40px;
+    border: 2px solid white;
+    margin-top: 25px;
+}
+
+.img-site2 {
+    width: 400px;          
+    height: auto;          
+    opacity: 0.9;           
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+    object-fit: cover;   
+    padding: 40px 4%;
+    border-radius: 20px;
+
+
+}
